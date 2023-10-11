@@ -31,7 +31,7 @@ class SchoolListVC: UIViewController {
         self.getSchoolList()
         
     }
-    // MARK: - Poll to refresh Methods
+    // MARK: - Pull to refresh Methods
     @objc func pullToRefresh() {
         self.getSchoolList()
     }
